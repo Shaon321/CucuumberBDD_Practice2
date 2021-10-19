@@ -1,4 +1,5 @@
 Feature: Login Feature Test
+  @login @smoke @regression @prePost
   Scenario: Login with valid email and password
     Given I am at TalentTEK homepage
     And I enter a valid email address
